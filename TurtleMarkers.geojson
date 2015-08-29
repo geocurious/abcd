@@ -3,7 +3,15 @@
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
                                                                                 
 "features": [
-{ "type": "Feature", "properties": { "Latitude": 40.939961, "Longitude": -73.144304, "comment": "painted turtle", "display": "3", "altitude": 1.230000 }, "geometry": { "type": "Point", "coordinates": [ -73.144270512056181, 40.939959288968552, 1.231700000003912 ] } },
+{ "type": "Feature", "properties": 
+{ "Latitude": 40.939961, "Longitude": -73.144304, "comment": "painted turtle", "display": "3", "altitude": 1.230000 }, 
+"geometry": { "type": "Point", "coordinates": [ -73.144270512056181, 40.939959288968552, 1.231700000003912 ] }, 
+"properties": {
+"marker-symbol": "star-stroked",
+"name":  "3",
+"otherstuff": "yep other"
+}
+},
 { "type": "Feature", "properties": { "Latitude": 40.935926, "Longitude": -73.144762, "comment": "painted turtle", "display": "12", "altitude": -7.110000 }, "geometry": { "type": "Point", "coordinates": [ -73.144722090121789, 40.935925650594776, -7.110000000000582 ] } },
 { "type": "Feature", "properties": { "Latitude": 40.940466, "Longitude": -73.144225, "comment": "painted turtle", "display": "2", "altitude": -5.510000 }, "geometry": { "type": "Point", "coordinates": [ -73.14421536266623, 40.940466084654446, 0.0 ] } },
 { "type": "Feature", "properties": { "Latitude": 40.939122, "Longitude": -73.144386, "comment": "painted turtle", "display": "5", "altitude": -3.910000 }, "geometry": { "type": "Point", "coordinates": [ -73.144357998447049, 40.939120947899021, 0.0 ] } },
